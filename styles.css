@@ -60,7 +60,8 @@ input[class="continue-with"]:hover {
 }
 
 input[class="continue-with"]:active {
-    border: 3px solid #000000;
+    box-shadow: 0 0 0 2px #ffffff, 0 0 0 5px #000000;
+    filter: opacity(75%);
 }
 
 #or-divider {
@@ -89,22 +90,29 @@ input[class="continue-with"]:active {
     border-radius: 5px;
 }
 
-.login-input:hover {
+.login-input:hover, .login-input:focus {
     border: 1px solid #000000;
 }
 
 .login-input:active, .login-input:focus {
-    border: 3px solid #000000;
+    outline: none;
+    box-shadow: inset 0 0 0 2px #000000;
 }
 
 a, a:visited {
     display: block;
     text-align: left;
     color: #000000;
+    max-width: 11.17em;
 }
 
 a:hover, a:active {
-    color: #14d658;
+    color: #199444;
+}
+
+a:active {
+    text-decoration: none;
+    box-shadow: 0 3px 0 0px #199444;
 }
 
 #remember-me {
@@ -116,7 +124,7 @@ a:hover, a:active {
 }
 
 input[type=checkbox] {
-    accent-color: #14d658;
+    accent-color: #199444;
 }
 
 label[for="remember-me"] {
