@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta charset="utf-8"/>
+        <meta name="viewport" content="width=device-width, initial scale=1.0"/>
+        <meta name="description" content="Spotify Login Clone"/>
+        <title>Login - Spotify (Clone)</title>
+        <link rel="stylesheet" href="styles.css"/>
+    </head>
+    <body>
+        <!--Top Spotify logo-->
+        <header>
+            <nav>
+                <img id="spotify-logo" src="https://static-prod.adweek.com/wp-content/uploads/2019/11/Spotify-Logo-Black-1240x696.png.webp">
+            </nav>
+        </header>
+        <div id="logo-divider"></div>
+        <!--Login sections-->
+        <section for="login-section">
+            <!--"Continue with" log in buttons-->
+            <section for="continue-with">
+                <form action="https://github.com/ChoBobby" target=_blank>
+                    <input type="submit" class="continue-with" id="facebook" value="CONTINUE WITH FACEBOOK">
+                    <input type="submit" class="continue-with" id="apple" value="CONTINUE WITH APPLE">
+                    <input type="submit" class="continue-with" id="google" value="CONTINUE WITH GOOGLE">
+                </form>
+            </section>
+            <legend id="or"><strong>OR</strong></legend>
+            <div id="or-divider"></div>
+            <!--Spotify account login section-->
+            <section for="user-login">
+                <label class="input-prompt">Email address or username
+                    <input id="email-user" class="login-input" type="text" required>
+                </label>
+                <label class="input-prompt">Password
+                    <input id="password" class="login-input" type="password" required>
+                </label>
+            </section>
+            <!--Forgot password link-->
+            <a id="forgot-password" class="link" href="https://github.com/ChoBobby" target="_blank">Forgot your password?</a>
+            <!--Remember me checkbox-->
+            <input id="remember-me" class="remember-me" type="checkbox"><label for="remember-me">Remember me</label>
+            <!--Login button-->
+            <form action="https://github.com/ChoBobby" target=_blank>
+                <input type="submit" class="login" id="login" value="LOG IN">
+            </form>
+            <div id="sign-up-divider"></div>
+            <!--Sign up section-->
+            <section>
+                <form action="https://github.com/ChoBobby" target=_blank>
+                    <h2 id="signup-header"><strong>Don't have an account?</strong></h2>
+                    <input type="submit" class="continue-with" id="sign-up" value="SIGN UP FOR SPOTIFY">
+                </form>
+            </section>
+        </section>
+    </body>
+</html

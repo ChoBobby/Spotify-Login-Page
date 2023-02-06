@@ -1,0 +1,166 @@
+body {
+    font-family: arial;
+    font-weight: 700;
+    font-size:small;
+}
+
+#spotify-logo {
+    max-width: 10%;
+    min-width: 9rem;
+    display: block;
+    margin: auto;
+    padding: 0;
+}
+
+#logo-divider {
+    width: 100%;
+    border-bottom: 1px solid #dddddd;
+}
+
+section[for="login-section"] {
+    display: block;
+    margin: auto;
+    min-width: 400px;
+    max-width: 450px;
+    padding: 2em;
+}
+
+.continue-with {
+    display: block;
+    margin: 10px auto;
+    height: 48px;
+    width: 100%;
+    border-radius: 2em;
+    border: 1px solid #888888;
+}
+
+input[id="facebook"] {
+    letter-spacing: 0.75px;
+    font-weight: 800;
+    color: #dddddd;
+    background-color: #1778f2;
+}
+
+input[id="apple"] {
+    letter-spacing: 0.75px;
+    font-weight: 800;
+    color: #dddddd;
+    background-color: #181818;
+}
+
+input[id="google"] {
+    letter-spacing: 0.75px;
+    font-weight: 800;
+    color: #888888;
+    background-color: #ffffff;
+}
+
+input[class="continue-with"]:hover {
+    border: 1px solid #000000;
+}
+
+input[class="continue-with"]:active {
+    border: 3px solid #000000;
+}
+
+#or-divider {
+    display: block;
+    margin: auto;
+    width: 100%;
+    border-bottom: 2px solid #dddddd;
+    margin-bottom: 2em;
+}
+
+#or {
+    margin: auto;
+    text-align: center;
+    background-color: #ffffff;
+    width: 50px;
+}
+
+.login-input {
+    min-height: 45px;
+    width: 100%;
+    font-size: larger;
+    text-indent: 2.5%;
+    margin: 1em 0;
+    margin-bottom: 1.5em;
+    border: 1px solid #888888;  
+    border-radius: 5px;
+}
+
+.login-input:hover {
+    border: 1px solid #000000;
+}
+
+.login-input:active, .login-input:focus {
+    border: 3px solid #000000;
+}
+
+a, a:visited {
+    display: block;
+    text-align: left;
+    color: #000000;
+}
+
+a:hover, a:active {
+    color: #14d658;
+}
+
+#remember-me {
+    margin-top: 2em;
+    margin-left: 0;
+    margin-right: 1em;
+    height: 16px;
+    width: 16px;
+}
+
+input[type=checkbox] {
+    accent-color: #14d658;
+}
+
+label[for="remember-me"] {
+    color: #444444;
+}
+
+input[id="login"] {
+    display: block;
+    margin-right: 0;
+    margin-left: auto;
+    padding: 16px 35px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    border: 0;
+    border-radius: 3em;
+    background-color: #14d658;
+}
+
+input[id="login"]:hover {
+    box-shadow: 0 0 0 2px #0de659;
+    background-color: #0de659;
+}
+
+input[id="login"]:active {
+    box-shadow: 0 0 0 2px #199444;
+    background-color: #199444;
+}
+
+#sign-up-divider {
+display: block;
+width: 100%;
+border-bottom: 2px solid #dddddd;
+margin: 2em 0;
+}
+
+#signup-header {
+    text-align: center;
+    margin-top: 2em;
+    font-size: medium;
+}
+
+#sign-up {
+    letter-spacing: 0.75px;
+    font-weight: 800;
+    color: #888888;
+    background-color: #ffffff;
+}
