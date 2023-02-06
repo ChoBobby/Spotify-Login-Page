@@ -17,6 +17,11 @@ body {
     border-bottom: 1px solid #dddddd;
 }
 
+#to-continue {
+    text-align: center;
+    font-size: medium;
+}
+
 section[for="login-section"] {
     display: block;
     margin: auto;
@@ -36,21 +41,21 @@ section[for="login-section"] {
 input[id="facebook"] {
     letter-spacing: 0.75px;
     font-weight: 800;
-    color: #dddddd;
+    color: #efefef;
     background-color: #1778f2;
 }
 
 input[id="apple"] {
     letter-spacing: 0.75px;
     font-weight: 800;
-    color: #dddddd;
+    color: #efefef;
     background-color: #181818;
 }
 
 input[id="google"] {
     letter-spacing: 0.75px;
     font-weight: 800;
-    color: #888888;
+    color: #666666;
     background-color: #ffffff;
 }
 
@@ -170,6 +175,6 @@ margin: 2em 0;
 #sign-up {
     letter-spacing: 0.75px;
     font-weight: 800;
-    color: #888888;
+    color: #666666;
     background-color: #ffffff;
 }
