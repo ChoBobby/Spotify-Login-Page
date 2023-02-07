@@ -119,6 +119,7 @@ a:hover, a:active {
 a:active {
     text-decoration: none;
     box-shadow: 0 3px 0 0px #199444;
+    transition: box-shadow 0.33s ease-in-out;
 }
 
 #remember-me {
